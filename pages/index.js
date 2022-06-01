@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -65,7 +66,7 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="mt-14 lg:mt-20 text-center"><a className="inline-block py-3 px-12 mr-4 bg-blue-500 hover:bg-blue-600 rounded-full text-white font-bold transition duration-200" href="/blogs">See all</a></div>
+          <div className="mt-14 lg:mt-20 text-center"><Link href="/blogs"><span className="inline-block py-3 px-12 mr-4 bg-blue-500 hover:bg-blue-600 rounded-full text-white font-bold transition duration-200">See all</span></Link></div>
         </div>
       </section>
     </div>
